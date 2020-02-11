@@ -42,8 +42,8 @@ custom_file_path:
 favicon:
   small: /images/moicodes_favicon_16x16.png
   medium: /images/moicodes_favicon_32x32.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  apple_touch_icon: /images/moicodes_logo_180x180.png
+  safari_pinned_tab: /images/moicodes_logo_smol.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
@@ -104,8 +104,8 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 #scheme: Gemini
 
@@ -167,9 +167,9 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: #/images/avatar.gif
+  url: /images/moicodes_logo_215x215.png
   # If true, the avatar will be dispalyed in circle.
-  rounded: false
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
   rotated: false
 
@@ -193,7 +193,7 @@ social:
   #Skype: skype:yourname?call|chat || skype
 
 social_icons:
-  enable: true
+  enable: false
   icons_only: false
   transition: false
 
@@ -753,7 +753,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
