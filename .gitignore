@@ -19,4 +19,4 @@ source/lib/font-awesome/scss/
 !source/lib/velocity/
 
 #ignore git file
-.git
+.github
